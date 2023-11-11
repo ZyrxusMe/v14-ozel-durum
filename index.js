@@ -19,7 +19,6 @@ for (const kategori of komutlarDosyasi) {
         console.log(`Komut ${dosya.slash.name} yüklendi. (Kategori: ${kategori})`);
     }
 }
-
 client.on("ready", async () => {
 
     client.user.setActivity({ state: "Ayran Codeshare!", name: "Custom Status", type: Discord.ActivityType.Custom })
